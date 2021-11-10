@@ -36,8 +36,6 @@ const sampleArr = ref([
 
 const faceMatcher = ref();
 
-// const resultArr = ref<any[]>([]);
-
 // 生成人脸匹配矩阵数组对象，样本图片同步转码
 const faceMatcherFn =async ()=>{
   const labeledFaceDescriptors = await Promise.all(
